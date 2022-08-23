@@ -1,0 +1,43 @@
+.btn {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+
+  &--blue {
+    background-color: $primary;
+    padding: 1.3rem 3rem;
+    color: $white;
+  }
+  &--white {
+    background-color: $white;
+    padding: 2rem 3.7rem;
+    color: $primary;
+
+    box-shadow: 0rem 1rem 4rem rgba(176, 201, 253, 0.3);
+  }
+  &--light-blue {
+    background-color: rgba($primary, 0.1);
+    padding: 1.2rem 2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+    color: $primary;
+  }
+  &--footer {
+    background-color: $primary;
+    color: $white;
+    border-radius: 0rem 1rem 1rem 0rem;
+    padding: 2.4rem 5rem;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    @include media-breakpoint-down(sm) {
+      padding: 0;
+    }
+  }
+}
+
+.exclamation {
+  margin-right: 1.2rem;
+}

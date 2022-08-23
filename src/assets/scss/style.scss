@@ -1,0 +1,40 @@
+@import "bootstrap/bootstrap";
+@import "variables";
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+}
+
+body {
+  background-color: $white;
+  font-size: 21px;
+  color: $secondary;
+  font-family: "Inter";
+  position: relative;
+}
+
+.container {
+  max-width: 132rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.text-gray {
+  color: $gray;
+  &--footer__input {
+    color: $footer__input-gray;
+  }
+  &--footer__group {
+    color: $footer__group-gray;
+  }
+}
+
+@import "blocks/buttons";
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/slider";
+@import "blocks/section";
+@import "blocks/award";
+@import "blocks/review";
+@import "blocks/footer";

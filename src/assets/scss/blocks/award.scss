@@ -1,0 +1,21 @@
+.award__title {
+  max-width: 95rem;
+  margin-bottom: 3rem;
+
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 5.3rem;
+  @include media-breakpoint-down(sm) {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+  }
+}
+
+.award__text {
+  max-width: 77.8rem;
+  margin-bottom: 5rem;
+
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+}

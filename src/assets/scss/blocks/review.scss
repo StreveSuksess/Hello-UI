@@ -1,0 +1,60 @@
+.reviews__title {
+  font-weight: 900;
+  font-size: 7.2rem;
+  margin-bottom: 7rem;
+}
+
+.reviews__suptitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  margin-bottom: 4rem;
+}
+
+.reviews__inner {
+  .row {
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.review {
+  padding: 2rem;
+  min-height: 40rem;
+  background: $white;
+  border: 0.1rem solid rgba($black, 0.1);
+  border-radius: 1rem;
+}
+
+.review__header {
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.review__name {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.review__id {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.review__twitter-img {
+  right: 0;
+  top: 1.234rem;
+  z-index: 10;
+}
+
+.review__text {
+  gap: 3rem;
+}
+
+.review__p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
